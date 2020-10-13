@@ -1,0 +1,76 @@
+article h1, article h2, article h3, article h4, article ul, article ol, article li, article p, article blockquote, article hr {
+  width: 700px;
+  margin: 0 auto;
+}
+article h1, article h2, article h3, article h4 {
+  font-weight: bold;
+}
+article p, article blockquote, article li {
+  font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 52px;
+}
+article h1 {
+  font-size: 42px;
+  line-height: 48px;
+  margin-top: 80px;
+}
+article h1 + p {
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 36px;
+  color: rgba(0, 0, 0, .4);
+}
+article h2 {
+  font-size: 34px;
+  line-height: 36px;
+  margin-top: 64px;
+}
+article h2 + p {
+  margin-top: 25px;
+}
+article h2 + h3 {
+  margin-top: 56;
+
+}
+article h3 {
+  font-size: 30px;
+  line-height: 34px;
+  margin-top: 56px;
+}
+article h3 + p {
+  margin-top: 28px;
+}
+article blockquote {
+  font-style: italic;
+  position: relative;
+}
+article blockquote::before {
+  content: "";
+  background: black;
+  width: 3px;
+  height: 100%;
+  position:absolute;
+  left: -17px;
+}
+article blockquote + h2 {
+  margin-top: 64px;
+}
+article h4 {
+  font-size: 26px;
+  line-height: 30px;
+  margin-top: 52px;
+}
+article h4 + p {
+  margin-top: 28px;
+}
+article img {
+  width: 1020px;
+  margin: 90px auto;
+  position: relative;
+  display: block;
+}
+article li {
+  list-style-type: disc;
+  margin-bottom: 40px;
+}
