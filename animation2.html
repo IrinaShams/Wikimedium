@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+   <head>
+     <meta charset="utf-8">
+     <title></title>
+     <style media="screen">
+
+     .firstcircle {
+       width: 100px;
+       height: 100px;
+       background: orange;
+       position: absolute;
+       display: block;
+       top: -150px;
+       right: 500px;
+       border-radius: 50%;
+       animation: orangecircle 1.5s infinite;
+     }
+     @keyframes orangecircle {
+       50% {
+         transform: translateY(500px);
+         animation-timing-function: cubic-bezier(0,1.02,.7,.83);
+       }
+     }
+     .secondcircle {
+       width: 200px;
+       height: 200px;
+       background: blue;
+       position: static;
+       display: block;
+       top: 200px;
+       right: 500px;
+       border-radius: 50%;
+       animation: secondcircle 5s infinite;
+     }
+     @keyframes secondcircle {
+       20% {
+         transform: translateY(100px);
+         animation-timing-function: ease;
+       }
+     }
+
+     </style>
+   </head>
+   <body>
+     <div class="firstcircle"><div>
+       <div class="secondcircle"><div>
+   </body>
+ </html>
